@@ -20,7 +20,7 @@ public class JSONLayout extends Layout {
     ObjectNode objN = objM.createObjectNode();
     objN.put("logger", loggingEvent.getLoggerName());
     objN.put("level", loggingEvent.getLevel().toString());
-    objN.put("starttime", loggingEvent.getTimeStamp());
+    objN.put("starttime", Long.toString(loggingEvent.getTimeStamp()));
     objN.put("thread", loggingEvent.getThreadName());
     objN.put("message", loggingEvent.getMessage().toString());
     try {

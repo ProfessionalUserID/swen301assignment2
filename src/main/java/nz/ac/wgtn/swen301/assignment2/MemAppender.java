@@ -1,17 +1,19 @@
 package nz.ac.wgtn.swen301.assignment2;
 
 import org.apache.log4j.AppenderSkeleton;
+import org.apache.log4j.Layout;
+import org.apache.log4j.PatternLayout;
 import org.apache.log4j.spi.LoggingEvent;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
-public class MemAppender extends AppenderSkeleton {
+public class MemAppender extends AppenderSkeleton implements MemAppenderMBean {
 
   List<LoggingEvent> logEvents = new ArrayList();
-  private String name = "";
   private long discardCount = 0;
   private long maxSize = 1000;
 
@@ -45,7 +47,7 @@ public class MemAppender extends AppenderSkeleton {
   }
 
   public List<LoggingEvent> getCurrentLogs(){
-    return new ArrayList<>(logEvents);
+    return Collections.unmodifiableList(logEvents);
   }
 
   public long getDiscardedLogCount(){
@@ -66,7 +68,21 @@ public class MemAppender extends AppenderSkeleton {
       writer.close();
     } catch (Exception ignored) {}
 
+  }
 
+  @Override
+  public String[] getLogs(){
+    String[] logs = new String[logEvents.size()];
+    Layout pLayout = new PatternLayout();
+    for (int i = 0; i < this.logEvents.size(); i++){
+      logs[i] = pLayout.format(this.logEvents.get(i));
+    }
+    return logs;
+  }
+
+  @Override
+  public long getLogCount() {
+    return this.logEvents.size();
   }
 
 }
