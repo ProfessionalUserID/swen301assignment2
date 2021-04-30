@@ -69,7 +69,7 @@ public class JSONLayoutTest {
       node = objM.readTree(l.format(event));
     } catch (JsonProcessingException e){
       e.printStackTrace();
-      fail("JSON node not valid");
+      fail("Test failed");
     }
 
     assertNotEquals(node.get("logger").toString(), "\"class nz.ac.wgtn.swen301.assignment2.JSONLayout\"");
