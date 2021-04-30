@@ -189,7 +189,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619753873512" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619754023678" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -206,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JSONLayoutTest.test_JSONLayout2">
     <configuration name="JSONLayoutTest.test_JSONLayout1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment2-300450882" />
       <extension name="coverage">
@@ -223,8 +223,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JSONLayoutTest.test_JSONLayout2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-300450882" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.JSONLayoutTest" />
+      <option name="METHOD_NAME" value="test_JSONLayout2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONLayoutTest.test_JSONLayout2" />
         <item itemvalue="JUnit.JSONLayoutTest.test_JSONLayout1" />
       </list>
     </recent_temporary>
