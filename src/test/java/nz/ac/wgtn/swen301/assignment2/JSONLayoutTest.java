@@ -115,4 +115,22 @@ public class JSONLayoutTest {
 
   }
 
+  @Test
+  public void test_JSONLayout4(){
+    JSONLayout l = new JSONLayout();
+
+    try {
+      l.format(null);
+      fail("Test failed");
+    } catch (NullPointerException ignored){ }
+
+  }
+
+  @Test
+  public void test_JSONLayout5(){
+    JSONLayout l = new JSONLayout();
+    assertFalse(l.ignoresThrowable());
+    l.activateOptions();
+  }
+
 }

@@ -13,7 +13,6 @@ public class JSONLayout extends Layout {
 
   @Override
   public String format(LoggingEvent loggingEvent) {
-
     String format = "";
 
     ObjectMapper objM = new ObjectMapper();
@@ -27,7 +26,6 @@ public class JSONLayout extends Layout {
       format = objM.writerWithDefaultPrettyPrinter().writeValueAsString(objN);
     }
     catch(IOException e) {return null;}
-
 
     return format;
   }
