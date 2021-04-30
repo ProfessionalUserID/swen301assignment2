@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e7bc7c-3af7-4b47-b4dd-3aa5e7f072f6" name="Default Changelist" comment="MBean Implemented and other classes edited">
+    <list default="true" id="54e7bc7c-3af7-4b47-b4dd-3aa5e7f072f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nz/ac/wgtn/swen301/assignment2/JSONLayoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/ac/wgtn/swen301/assignment2/JSONLayoutTest.java" afterDir="false" />
     </list>
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/nz/ac/wgtn/swen301/assignment2/JSONLayoutTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="502">
+              <caret line="109" column="53" selection-start-line="109" selection-start-column="53" selection-end-line="109" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,7 +189,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619754061619" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619754553579" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -206,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JSONLayoutTest.test_JSONLayout2">
+  <component name="RunManager" selected="JUnit.JSONLayoutTest.test_JSONLayout3">
     <configuration name="JSONLayoutTest.test_JSONLayout1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment2-300450882" />
       <extension name="coverage">
@@ -239,8 +239,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JSONLayoutTest.test_JSONLayout3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-300450882" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.JSONLayoutTest" />
+      <option name="METHOD_NAME" value="test_JSONLayout3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONLayoutTest.test_JSONLayout3" />
         <item itemvalue="JUnit.JSONLayoutTest.test_JSONLayout2" />
         <item itemvalue="JUnit.JSONLayoutTest.test_JSONLayout1" />
       </list>
@@ -320,7 +337,28 @@
       <option name="project" value="LOCAL" />
       <updated>1619751403010</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Test 1 implemented">
+      <created>1619753948253</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619753948253</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Test 2 implemented">
+      <created>1619754071533</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619754071533</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Test 2 edited">
+      <created>1619754094599</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1619754094599</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -329,6 +367,9 @@
     </history-entry>
     <history-entry file="JSONLayoutTest_test_JSONLayout1 - 2021.04.30 at 15h 34m 08s.xml">
       <configuration name="JSONLayoutTest.test_JSONLayout1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JSONLayoutTest_test_JSONLayout2 - 2021.04.30 at 15h 40m 15s.xml">
+      <configuration name="JSONLayoutTest.test_JSONLayout2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -374,7 +415,10 @@
     <MESSAGE value="Task 4 complete" />
     <MESSAGE value="MBean Implemented and other classes edited" />
     <MESSAGE value="Added README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added README.md" />
+    <MESSAGE value="Test 1 implemented" />
+    <MESSAGE value="Test 2 implemented" />
+    <MESSAGE value="Test 2 edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test 2 edited" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -424,8 +468,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nz/ac/wgtn/swen301/assignment2/JSONLayoutTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="502">
+          <caret line="109" column="53" selection-start-line="109" selection-start-column="53" selection-end-line="109" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
