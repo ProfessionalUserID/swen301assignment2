@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e7bc7c-3af7-4b47-b4dd-3aa5e7f072f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/nz/ac/wgtn/swen301/assignment2/MemAppenderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/ac/wgtn/swen301/assignment2/JSONLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/ac/wgtn/swen301/assignment2/JSONLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/ac/wgtn/swen301/assignment2/JSONLayoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nz/ac/wgtn/swen301/assignment2/JSONLayoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nz/ac/wgtn/swen301/assignment2/MemAppenderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nz/ac/wgtn/swen301/assignment2/MemAppenderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,9 +17,12 @@
     <SUITE FILE_PATH="coverage/assignment2_300450882$JSONLayoutTest.ic" NAME="JSONLayoutTest Coverage Results" MODIFIED="1619785558475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>nz.ac.wgtn.swen301.assignment2.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2_300450882$MemAppenderTest.ic" NAME="MemAppenderTest Coverage Results" MODIFIED="1619786608123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nz.ac.wgtn.swen301.assignment2.*</FILTER>
+    </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="241" />
+    <option name="myElementSize" value="311" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/nz/ac/wgtn/swen301/assignment2/JSONLayoutTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="132" column="18" lean-forward="true" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -80,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/nz/ac/wgtn/swen301/assignment2/MemAppenderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="85">
+              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -89,8 +89,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nz/ac/wgtn/swen301/assignment2/MemAppender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="399">
+              <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -223,7 +226,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619785780359" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619786778683" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -245,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JSONLayoutTest">
+  <component name="RunManager" selected="JUnit.MemAppenderTest">
     <configuration name="JSONLayoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment2-300450882" />
       <extension name="coverage">
@@ -257,54 +260,6 @@
       <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
       <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.JSONLayoutTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSONLayoutTest.test_JSONLayout1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment2-300450882" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
-      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.JSONLayoutTest" />
-      <option name="METHOD_NAME" value="test_JSONLayout1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSONLayoutTest.test_JSONLayout2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment2-300450882" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
-      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.JSONLayoutTest" />
-      <option name="METHOD_NAME" value="test_JSONLayout2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSONLayoutTest.test_JSONLayout3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment2-300450882" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
-      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.JSONLayoutTest" />
-      <option name="METHOD_NAME" value="test_JSONLayout3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -325,13 +280,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemAppenderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-300450882" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.MemAppenderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemAppenderTest.test_MemAppender1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-300450882" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.MemAppenderTest" />
+      <option name="METHOD_NAME" value="test_MemAppender1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemAppenderTest.test_MemAppender2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-300450882" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.MemAppenderTest" />
+      <option name="METHOD_NAME" value="test_MemAppender2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemAppenderTest" />
+        <item itemvalue="JUnit.MemAppenderTest.test_MemAppender2" />
+        <item itemvalue="JUnit.MemAppenderTest.test_MemAppender1" />
         <item itemvalue="JUnit.JSONLayoutTest" />
         <item itemvalue="JUnit.JSONLayoutTest.test_JSONLayout4" />
-        <item itemvalue="JUnit.JSONLayoutTest.test_JSONLayout1" />
-        <item itemvalue="JUnit.JSONLayoutTest.test_JSONLayout2" />
-        <item itemvalue="JUnit.JSONLayoutTest.test_JSONLayout3" />
       </list>
     </recent_temporary>
   </component>
@@ -451,25 +453,17 @@
       <option name="project" value="LOCAL" />
       <updated>1619783360207</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Changed dependencies &amp; added tests">
+      <created>1619785901020</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1619785901020</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JSONLayoutTest_test_JSONLayout2 - 2021.05.01 at 00h 16m 44s.xml">
-      <configuration name="JSONLayoutTest.test_JSONLayout2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JSONLayoutTest_test_JSONLayout1 - 2021.05.01 at 00h 16m 47s.xml">
-      <configuration name="JSONLayoutTest.test_JSONLayout1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JSONLayoutTest - 2021.05.01 at 00h 19m 31s.xml">
-      <configuration name="JSONLayoutTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JSONLayoutTest - 2021.05.01 at 00h 22m 40s.xml">
-      <configuration name="JSONLayoutTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JSONLayoutTest_test_JSONLayout4 - 2021.05.01 at 00h 22m 55s.xml">
-      <configuration name="JSONLayoutTest.test_JSONLayout4" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JSONLayoutTest - 2021.05.01 at 00h 23m 03s.xml">
       <configuration name="JSONLayoutTest" configurationId="JUnit" />
     </history-entry>
@@ -485,12 +479,27 @@
     <history-entry file="JSONLayoutTest - 2021.05.01 at 00h 26m 00s.xml">
       <configuration name="JSONLayoutTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MemAppenderTest_test_MemAppender1 - 2021.05.01 at 00h 37m 29s.xml">
+      <configuration name="MemAppenderTest.test_MemAppender1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemAppenderTest - 2021.05.01 at 00h 37m 35s.xml">
+      <configuration name="MemAppenderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemAppenderTest_test_MemAppender2 - 2021.05.01 at 00h 42m 16s.xml">
+      <configuration name="MemAppenderTest.test_MemAppender2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemAppenderTest_test_MemAppender2 - 2021.05.01 at 00h 43m 17s.xml">
+      <configuration name="MemAppenderTest.test_MemAppender2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemAppenderTest - 2021.05.01 at 00h 43m 29s.xml">
+      <configuration name="MemAppenderTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -520,6 +529,9 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added dependencies and java 8" />
     <MESSAGE value="Added JSONLayout and populated it" />
@@ -536,24 +548,35 @@
     <MESSAGE value="Test 3 implemented" />
     <MESSAGE value="Test 3 edited" />
     <MESSAGE value="Changed dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed dependencies" />
+    <MESSAGE value="Changed dependencies &amp; added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed dependencies &amp; added tests" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nz/ac/wgtn/swen301/assignment2/MemAppenderMBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nz/ac/wgtn/swen301/assignment2/JSONLayoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -569,32 +592,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nz/ac/wgtn/swen301/assignment2/MemAppender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nz/ac/wgtn/swen301/assignment2/MemAppenderMBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="399">
+          <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/nz/ac/wgtn/swen301/assignment2/MemAppenderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="85">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/nz/ac/wgtn/swen301/assignment2/JSONLayoutTest.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="132" column="18" lean-forward="true" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
         </state>
       </provider>
     </entry>
